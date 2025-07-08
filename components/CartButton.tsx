@@ -8,8 +8,8 @@ const CartButton = () => {
     const totalItems = 10;
 
   return (
-    <TouchableOpacity className='card-btn' onPress={() => {}}>
-      <Image source={images.bag} className='size-7 bg-dark-100 rounded-full p-2'  resizeMode="contain" />
+    <TouchableOpacity className='cart-btn' onPress={() => {}}>
+      <Image source={images.bag} className='size-5'  resizeMode="contain" />
       {totalItems > 0 ?
         <View className='cart-badge'>
             <Text className='text-white small-bold'>{totalItems}</Text>
